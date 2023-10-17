@@ -6,7 +6,10 @@ btn.addEventListener('click', function(){
     msg.classList.add('d-none');
    let parola = input.value;
 
-   if(palindromo(parola)){
+   if(!isNaN(parseInt(parola))){
+    msg.innerHTML=`non sono ammessi numeri`
+   }
+   else if(palindromo(parola)){
     msg.innerHTML=`parola palindroma`
    }
    else{
