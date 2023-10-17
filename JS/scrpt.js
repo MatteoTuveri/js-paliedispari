@@ -11,7 +11,7 @@ btn1.addEventListener('click', function(){
    let parola = input1.value;
 
    if(!isNaN(parseInt(parola))){
-    msg.innerHTML=`non sono ammessi numeri`
+    msg1.innerHTML=`non sono ammessi numeri`
    }
    else if(palindromo(parola)){
     msg1.innerHTML=`parola palindroma`
