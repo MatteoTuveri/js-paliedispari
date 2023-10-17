@@ -10,14 +10,29 @@
 </head>
 
 <body>
-    <div id="palindromo">
+    <div id="palindromo" class="container">
         <div class="mb-3">
             <label for="palindromo" class="form-label">Inserire una parola palindroma</label>
             <input type="text" class="form-control" id="parola" placeholder="es. anna, tenet, affogalagoffa ...">
-            <button type="button" class="btn btn-success my-2">Success</button>
+            <button type="button" class="btn btn-success my-2">invia</button>
         </div>
-        <div id="msg" class="py-4">
+        <div id="msg-1" class="py-4 d-none bg-danger text-center text-uppercase text-white ">
 
+        </div>
+        <div id="even-odd" class="py-4">
+            <div class="mb-3">
+                <label for="number" class="form-label">scegliere un numero tra 1 e 5</label>
+                <input type="number" class="form-control" id="number">
+            </div>
+            <select class="form-select" aria-label="Default select example my-2">
+                <option value="select">Scegli se pari o dispari</option>
+                <option value="even">Pari</option>
+                <option value="odd">Dispari</option>
+            </select>
+            <button type="button" class="btn btn-primary my-2">invia</button>
+            <div id="msg-2" class="py-4 d-none bg-danger text-center text-uppercase text-white ">
+
+            </div>
         </div>
     </div>
     <script src="JS/scrpt.js"></script>

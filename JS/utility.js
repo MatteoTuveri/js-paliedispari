@@ -21,3 +21,15 @@ function palindromo(parola) {
     console.log(value);
     return value;
 }
+
+//controlla se un numero è pari
+
+function even(number){
+    return (number % 2 === 0)? true : false;
+}
+
+//somma due numeri
+
+function sum(number1,number2){
+    return number1 + number2;
+}
